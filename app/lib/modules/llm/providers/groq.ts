@@ -25,6 +25,7 @@ export default class GroqProvider extends BaseProvider {
       provider: 'Groq',
       maxTokenAllowed: 131072,
     },
+    { name: 'qwen-2.5-32b', label: 'Qwen 2.5 32B', provider: 'Groq', maxTokenAllowed: 8000},
   ];
 
   async getDynamicModels(
